@@ -1,132 +1,168 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-family: 'Caveat', cursive;
 }
-body{
-
-}
-
 header{
-    background-color: rgb(92, 71, 45);
-    height: 120px;
-    display: flex;
-    justify-content: center;
-   align-items:flex-end
-}
-
-.baslik{
-    color: black;
-    font-size: 25px;
-    border: 2px solid yellow;
-}
-.menu{
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    border: 2px solid red;
-    gap: 2rem;
-}
-   .menu a{
-    /* border: 2px solid green; */
-   text-decoration: none;
-   color: black;
-   font-size: 20px;
-   padding: 10px;
-   border-radius: 10px;
-    }
-   .menu a:hover{
-background-color: rgb(75, 75, 131);
-
-   }
-   main{
-    border: 2px solid blue;
-    justify-content: center;
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-
-   }
-   main *{
-display: flex;
-
-height: 350px;
-width: 350px;
-padding: 10px;
-
-  }
-  .box1{
-    border: 2px solid blue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .box1 img{
-    border-radius: 25px;
-    display: flex;
-    width: 330px;
-    height: 330px;
-  }
- 
-
+  padding: 20px 0 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* border: 6px solid red; */
+  background-image: radial-gradient( circle 311px at 8.6% 27.9%,  rgba(62,147,252,0.57) 12.9%, rgba(239,183,192,0.44) 91.2% );
+  position:sticky;
+  z-index: 100;
+  top: 0;
+  font-family: 'Caveat', cursive;
   
 
-  .box2{
-    border: 2px solid blue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .box2 img{
-    border-radius: 25px;
-    display: flex;
-    width: 330px;
-    height: 330px;
-  }
 
+}
 
-  .box3{
-    border: 2px solid blue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .box3 img{
-    border-radius: 25px ;
-    display: flex;
-    width: 330px;
-    height: 330px;
-    
-  }
-
-
-  .box4{
-    border: 2px solid blue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .box4 img{
-    border-radius: 25px;
-    display: flex;
-    width: 330px;
-    height: 330px;
-  }
-
-
-  .box5 {
-    border: 2px solid blue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .box5 img{
-    border-radius: 25px;
-    display: flex;
-    width: 330px;
-    height: 330px;
-  }
+.title{
+  /* border: 6px solid black; */
+  font-size: 2rem;
 
 
 
-   
+}
+.menu{
+  /* border: 6px solid blue; */
+  text-align: center;
+  font-size: 1.3rem;
+
+}
+ul{
+  display: flex;
+  gap:2rem;
+  list-style-type: none;
+
+}
+li{
+  padding: 1rem;
+}
+li:hover{
+  background-color: rgb(31, 110, 156);
+  border-radius: 1rem;
+
+}
+
+ul a{
+  text-decoration: none;
+  
+}
+
+main{
+  padding: 2.1rem;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  /* border: 6px solid red; */
+  background-image: radial-gradient( circle 311px at 8.6% 27.9%,  rgba(62,147,252,0.57) 12.9%, rgba(239,183,192,0.44) 91.2% );
+
+
+}
+.box{
+margin:60px;
+box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+}
+
+.img{
+  width:400px;
+  height: 350px;
+  min-width: auto;
+  min-height:auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border: 6px solid red; */
+  /* box-shadow: 0 2px 4px rgba(0,0,0,0.1); */
+/* outline:40px  solid #ffffff8b; */
+/* outline-offset:5px;
+/* outline-offset: ; */
+border-radius: 10px;
+/* margin: 20px; */
+position: relative;
+opacity: 0.9;
+cursor: zoom-in;
+margin: 20px;
+
+}
+
+.img1{
+  background-image: url(./img/lahmacun-yemekcom-1.webp);
+  cursor:zoom-in
+  
+
+}
+
+/* .text{
+  visibility: hidden;
+  text-align:center;
+  vertical-align: auto;
+}
+.img:hover .text{
+
+visibility: visible;
+} */
+.img:hover::before{
+  
+  font-size: 2rem;
+  background-color: rgba(255, 255, 255, 0.425);
+  border: 1px solid white;
+  border-radius:5px;
+  padding: 5px;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+
+.img1:hover::before{
+  content: "Lahmacun";
+}
+
+.img2:hover::before{
+  content: "Kısır";
+}
+
+.img3:hover::before{
+  content: "Sarma";
+}
+
+.img4:hover::before{
+  content: "Yayla Çorbası";
+}
+
+.img5:hover::before{
+  content: "Fırında Balık";
+}
+.img2{
+  background-image: url("./img/2-kisilik-kisir-tarifi_1_11zon.webp");
+}
+.img3{
+  background-image: url("./img/821x464-zeytinyagli-yaprak-sarmasi-tarifi-parmak-isirtan-bir-lezzet-damaklarda-essiz-bir-solen-yaratiyor-1668404399580.jpg");
+}
+.img4{
+  background-image: url("./img/yumurtasiz-yayla-corbasi-onecikan-yeni.jpg");
+}
+.img5{
+  background-image: url("./img/firinda-balik-1541bcd3-cb0d-47dd-a9c1-513130191d0e.webp");
+}
+
+footer{
+  
+  text-align:center;
+  font-size: 1rem;
+  padding: 2rem;
+  background-image: radial-gradient( circle 311px at 8.6% 27.9%,  rgba(62,147,252,0.57) 12.9%, rgba(239,183,192,0.44) 91.2% );
+
+}

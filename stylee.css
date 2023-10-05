@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+}
+
+header{
+    background-color: rgb(92, 71, 45);
+    height: 120px;
+    display: flex;
+    justify-content: center;
+   align-items:flex-end;
+   flex-wrap: wrap;
+   
+}
+
+.baslik{
+    color: black;
+    font-size: 25px;
+    border: 2px solid yellow;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border: 2px solid red;
+    gap: 2rem;
+}
+   .menu a{
+    /* border: 2px solid green; */
+   text-decoration: none;
+   color: black;
+   font-size: 20px;
+   padding: 10px;
+   border-radius: 10px;
+    }
+   .menu a:hover{
+background-color: rgb(75, 75, 131);
+
+   }
+   main{
+    border: 2px solid blue;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+   }
+   main *{
+display: flex;
+
+height: 350px;
+width: 350px;
+padding: 10px;
+
+  }
+  .box1{
+    border: 1px solid rgb(2, 2, 248);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    
+  }
+  .box1 img{
+    border-radius: 25px;
+    display: flex;
+    width: 330px;
+    height: 330px;
+  }
+ .box1 img:hover{
+  cursor: zoom-in;
+  
+ 
+ }
+ /* .box1 p{
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+   */
+
+ 
+
+  
+
+  .box2{
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+  
+  
+  .box2 img{
+    border-radius: 25px;
+    display: flex;
+    width: 330px;
+    height: 330px;
+  }
+  .box2 img:hover{
+    cursor: zoom-in;
+  }
+
+
+  .box3{
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+  .box3 img{
+    border-radius: 25px ;
+    display: flex;
+    width: 330px;
+    height: 330px;
+    
+  }
+  .box3 img:hover{
+    cursor: zoom-in;
+  }
+
+
+  .box4{
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+  .box4 img{
+    border-radius: 25px;
+    display: flex;
+    width: 330px;
+    height: 330px;
+  }
+  .box4 img:hover{
+    cursor: zoom-in;
+  }
+
+
+  .box5 {
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+  .box5 img{
+    border-radius: 25px;
+    display: flex;
+    width: 330px;
+    height: 330px;
+  }
+  .box5 img:hover{
+    cursor: zoom-in;
+  }
+
+
+   

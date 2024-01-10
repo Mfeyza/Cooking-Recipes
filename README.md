@@ -1,2 +1,17 @@
-# Assignment3.
-visit my website : https://mfeyza.github.io/Assignment3./
+
+
+
+Project Name: Cooking Recipes
+Project Description
+This project is a user-friendly website showcasing a variety of cooking recipes. Designed as a platform for users to discover different recipes and gain culinary inspiration, the website features a visually appealing interface with interactive elements for an engaging user experience.
+
+Features
+User-friendly and aesthetically pleasing interface.
+A photo gallery displaying various cooking recipes.
+Interactive design providing detailed information for each recipe.
+Three main sections: Home, About Us, and Gallery.
+Technologies Used
+Frontend: HTML, CSS, JavaScript (if applicable).
+Fonts: 'Caveat' font provided by Google Fonts.
+Setup and Installation
+visit my website : https://assignment3-five-eosin.vercel.app/

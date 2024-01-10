@@ -13,5 +13,12 @@ Three main sections: Home, About Us, and Gallery.
 Technologies Used
 Frontend: HTML, CSS, JavaScript (if applicable).
 Fonts: 'Caveat' font provided by Google Fonts.
-Setup and Installation
+
+
+<div align="center">
+  <img src="./img/Ekran görüntüsü 2024-01-10 190742.png"  width="35%" height="500" />
+
+</div>
+
+
 visit my website : https://assignment3-five-eosin.vercel.app/

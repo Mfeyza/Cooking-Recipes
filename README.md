@@ -16,7 +16,7 @@ Fonts: 'Caveat' font provided by Google Fonts.
 
 
 <div align="center">
-  <img src="./img/Ekran görüntüsü 2024-01-10 190742.png"  width="35%" height="500" />
+  <img src="./img/Ekran görüntüsü 2024-01-10 190742.png"  width="600" height="500" />
 
 </div>
 

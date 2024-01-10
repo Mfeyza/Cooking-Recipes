@@ -166,3 +166,55 @@ footer{
   background-image: radial-gradient( circle 311px at 8.6% 27.9%,  rgba(62,147,252,0.57) 12.9%, rgba(239,183,192,0.44) 91.2% );
 
 }
+@media screen and (max-width: 1024px) {
+
+    .img {
+        width: 50%; 
+        height: auto; 
+    }
+
+    .box {
+        margin: 30px; 
+        width: auto;
+    }
+
+ 
+}
+
+
+@media screen and (max-width: 768px) {
+    .header, .menu {
+       
+    }
+
+    .menu ul {
+        flex-direction: column; 
+        gap: 0.5rem;
+    }
+
+    .img {
+        width: 100%;
+    }
+
+    .box {
+        margin: 15px; 
+    }
+
+
+}
+
+
+@media screen and (max-width: 480px) {
+  
+    .menu ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .menu ul li {
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+

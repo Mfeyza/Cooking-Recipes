@@ -164,3 +164,47 @@ padding: 10px;
 
 
    
+@media screen and (max-width: 768px) {
+    header {
+        height: auto; 
+        padding: 10px 0;
+    }
+
+    .baslik {
+        font-size: 20px; 
+    }
+
+    .menu a {
+        font-size: 15px; 
+        padding: 5px;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box1, .box2, .box3, .box4, .box5 {
+        width: 90%; 
+        height: auto; 
+    }
+
+    .box1 img, .box2 img, .box3 img, .box4 img, .box5 img {
+        width: 100%; 
+        height: auto;
+    }
+}
+
+/* Mobil cihazlar için medya sorgusu */
+@media screen and (max-width: 480px) {
+    .menu {
+        flex-direction: column; 
+        gap: 10px;
+    }
+
+    .menu a {
+        font-size: 14px; 
+    }
+
+  
+}
